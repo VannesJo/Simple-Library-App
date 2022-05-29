@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/AppBackgtound"
+    android:padding="15dp"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now!"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/RegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@color/white"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/RegPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:id="@+id/RegPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:inputType="phone"
+        android:background="@color/white"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/RegDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select DOB"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/RegTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I agree with the Terms and Conditions"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/FinalReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        />
+
+</LinearLayout>
